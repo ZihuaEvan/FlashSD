@@ -1,4 +1,4 @@
-# Eagle eye
+# Flash for speculative decoding.
 
 ## Install
 
