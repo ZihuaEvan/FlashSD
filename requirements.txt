@@ -1,0 +1,20 @@
+torch==2.2.1
+transformers==4.51.1
+accelerate==1.6.0
+datasets
+safetensors
+einops
+huggingface_hub
+sentencepiece==0.1.99
+protobuf==3.19.0
+numpy
+tqdm
+Pillow
+opencv-python
+shortuuid
+wandb
+fschat==0.2.31
+qwen-vl-utils
+# Optional (uncomment if needed):
+# flash-attn        # faster attention kernels
+# ray               # multi-GPU feature generation in ge_data/

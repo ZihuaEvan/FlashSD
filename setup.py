@@ -1,0 +1,35 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='flash',
+    version='1.0.0',
+    description='SpecFLASH: Latent-Guided Semi-autoregressive Speculative Decoding for LMMs',
+    packages=find_packages(),
+    install_requires=[
+        "torch",
+        "accelerate==1.6.0",
+        "transformers==4.51.1",
+        "datasets",
+        "safetensors",
+        "einops",
+        "huggingface_hub",
+        "sentencepiece==0.1.99",
+        "protobuf==3.19.0",
+        "numpy",
+        "tqdm",
+        "Pillow",
+        "opencv-python",
+        "shortuuid",
+        "wandb",
+        "fschat==0.2.31",
+        "qwen-vl-utils",
+    ],
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+    ],
+)
